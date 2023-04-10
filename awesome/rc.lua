@@ -432,7 +432,7 @@ end)
 
 net_wireless = net_widgets.wireless({interface="wlp1s0"})
 -- Gaps
-beautiful.useless_gap = 10
+beautiful.useless_gap = 5
 -- Autostart Apps
 awful.spawn.with_shell("/home/artorias/.config/polybar/launch.sh")
 awful.spawn.with_shell("picom")
