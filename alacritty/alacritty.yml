@@ -32,7 +32,7 @@ scrolling:
 
 font:
   normal:
-    family: Hack
+    family: "Hack"
     style: Regular
   bold:
     family: Hack

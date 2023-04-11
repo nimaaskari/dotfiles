@@ -1,3 +1,6 @@
 #!/bin/bash
 #
-sudo cp -r {~/.config/awesome/,~/.config/alacritty/,~/.config/nvim,~/.config/picom.conf,~/.config/polybar} ./
+sudo cp -r {~/.config/awesome/,~/.config/alacritty/,~/.config/nvim,~/.config/picom.conf,~/.config/polybar,~/.config/starship.toml,~/.bashrc} ~/dotfiles
+
+git add .
+git commit -m "update automaticaly via script"
